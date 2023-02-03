@@ -12,6 +12,11 @@ The purpose of this project is to build a responsive portfolio that shows that I
 <!--     PSEUDOCODE  -->
 <!-- =============== -->
 -create hamburger menu for navigation links for mobile
+-create nav bar
+-add main section with picture and text
+-add social media links
+-add "meet me" link on home page that links to about page
+-add top 2 projects to showcase on home page
 
 
 
@@ -26,3 +31,5 @@ The purpose of this project is to build a responsive portfolio that shows that I
 02-03-23- initial commit
 02-03-23- hamburger menu
     -open and closing of menu
+02-03-23- no hamburger menu--reg navigation instead
+    -navigation is fixed to bottom of mobile screens
