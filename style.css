@@ -74,6 +74,16 @@ h3 {
     background: black;
 }
 
+.socialLinks {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.socials img {
+    height: 3rem;
+}
 
 
 /*========== HEADER MEDIA QUERY============= */
