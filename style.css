@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 
 .navImg {
@@ -40,23 +41,63 @@
 
 .navigation {
     border-bottom: 2px solid black;
+    position: sticky;
 }
 
 .logo {
     cursor: pointer;
 }
 
+.greetingSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.greetingText {
+    width: 100px;
+    z-index: 1;
+    margin-bottom: 80px;
+}
+
+
+h3 {
+    color: red;
+    font-size: 1rem;
+}
+
+.greetingImg {
+    width: 100%;
+    border-radius: 50%;
+    background: black;
+}
+
+
+
 /*========== HEADER MEDIA QUERY============= */
 @media screen and (max-width: 600px) {
     .leftLinks, .rightLinks {
         display: flex;
         flex-direction: column;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .logo {
         display: flex;
-        font-size: 2rem;
+        font-size: 1.5rem;
         align-items: center;
     }
+
+    .navigation {
+        border-bottom: 2px solid black;
+        position: fixed;
+        bottom: 0;
+        z-index: 2;
+        background: lightgray;
+        width: 100%;
+        
+    }
+
 }
