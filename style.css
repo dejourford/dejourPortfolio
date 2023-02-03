@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 40px;
+    height: 5px;
+    background: black;
+    border: 1px solid black;
+    margin: 7px 0px;
+}
+
+.hamburgerMenu {
+    margin: 30px 10px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.navigation {
+    background: lightblue;
+    max-width: 100vw;
+    padding: .5rem;
+}
+
+.links {
+    display: none;
+}
