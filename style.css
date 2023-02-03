@@ -63,7 +63,7 @@
 }
 
 .greetingText span {
-    color: red;
+    color: crimson;
 }
 
 h3 {
@@ -105,12 +105,12 @@ h3 {
     }
 
     .navigation {
-        border-bottom: 2px solid black;
         position: fixed;
         bottom: 0;
         z-index: 2;
-        background: lightgray;
+        background: crimson;
         width: 100%;
+        border-top: 3px solid black;
         
     }
 
