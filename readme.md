@@ -11,7 +11,7 @@ The purpose of this project is to build a responsive portfolio that shows that I
 <!-- =============== -->
 <!--     PSEUDOCODE  -->
 <!-- =============== -->
--need to create a home page overlay with actual home page with less opacity as background. user clicks "Learn More" and the actual homepage is revealed with regular opacity.
+-create hamburger menu for navigation links for mobile
 
 
 
@@ -23,4 +23,6 @@ The purpose of this project is to build a responsive portfolio that shows that I
 <!-- =============== -->
 <!--     UPDATES     -->
 <!-- =============== -->
-02-02-23-initial commit
+02-03-23- initial commit
+02-03-23- hamburger menu
+    -open and closing of menu
