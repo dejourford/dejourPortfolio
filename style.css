@@ -5,6 +5,11 @@
     
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .navImg {
     height: 20px;
     border: 2px solid black;
@@ -61,6 +66,7 @@
     justify-content: center;
     padding: 30px 20px;
     gap: 20px;
+    background: whitesmoke;
 }
 
 .greetingText {
@@ -91,6 +97,7 @@ h3 {
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    background: whitesmoke;
 
 }
 
@@ -99,7 +106,7 @@ h3 {
 }
 
 .para {
-font-size: 150px;
+font-size: 70px;
 color: crimson;
 
 }
@@ -113,27 +120,67 @@ color: crimson;
     background-color: black;
     color: white;
     height: 100vh;
+    width: 100vw;
+    max-width: fit-content;
     display: flex;
     text-align: center;
     align-items: center;
     padding: 0px 30px;
 }
 
-.portfolioSection {
+.projectSection {
     height: 100vh;
     font-size: 1.7rem;
     text-align: center;
-    padding: 20px 0px;
 }
 
-footer {
-    
+.projectSectionHeader {
+    padding: 10px;
+    text-decoration: 5px solid crimson overline;
+    text-transform: uppercase;
+}
+
+.card {
+    background: whitesmoke;
+    border: 4px solid black;
+    height: auto;
+    width: 300px;
     text-align: center;
-    padding: 20px 0px;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.previewBtn, .viewBtn {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.codeOptions {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.codeOptions button:hover {
+    cursor: pointer;
+}
+
+
+.projectSectionText {
+    padding: 50px;
+    background: whitesmoke;
 }
 
 /*========== SMALL SCREEN MEDIA QUERY============= */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
     .leftLinks, .rightLinks {
         display: flex;
         flex-direction: column;
@@ -199,6 +246,7 @@ footer {
         flex-wrap: wrap;
         text-align: justify;
         text-justify: inter-word;
+        width: 100vw;
         
     }
 
@@ -211,6 +259,17 @@ footer {
         font-size: 0.65rem;
         margin-top: 100px;
     }
+
+    .card {
+        width: 240px;
+    }
+
+    footer {
+        padding: 0px 0px;
+        height: 30vh;
+        margin-top: 150px;
+    }
+  
 }
 
 /* ==== INFO TYPEWRITER CSS ==== */
