@@ -35,3 +35,4 @@ The purpose of this project is to build a responsive portfolio that shows that I
     -navigation is fixed to bottom of mobile screens
     -created html and css pages for other pages
 02-05-23--finished about blurb section and added padding
+    10:00--added typewriter effect to about section
