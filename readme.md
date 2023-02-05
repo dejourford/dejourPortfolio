@@ -34,3 +34,4 @@ The purpose of this project is to build a responsive portfolio that shows that I
 02-03-23- no hamburger menu--reg navigation instead
     -navigation is fixed to bottom of mobile screens
     -created html and css pages for other pages
+02-05-23--finished about blurb section and added padding
