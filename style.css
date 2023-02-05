@@ -102,7 +102,17 @@ h3 {
 }
 
 .about-blurb span {
-    font-size: 40px;
+font-size: 50px;
+padding: 20px;
+
+color: crimson; 
+}
+
+.about-blurb {
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    word-spacing: 0.25rem;
 }
 
 /*========== HEADER MEDIA QUERY============= */
@@ -158,8 +168,8 @@ h3 {
     font-size: 50px;
     padding: 20px;
     
-    color: crimson;
-}
+    color: crimson; 
+    }
 
     .about-blurb {
         font-size: 1.2rem;
