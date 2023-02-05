@@ -101,10 +101,14 @@ h3 {
     padding: 30px 15px;
 }
 
-.about-blurb span {
+.para {
 font-size: 150px;
 color: crimson;
 
+}
+
+.emphasis {
+    color: crimson;
 }
 
 .about-blurb {
@@ -117,6 +121,8 @@ color: crimson;
     text-align: center;
     align-items: center;
 }
+
+
 
 /*========== HEADER MEDIA QUERY============= */
 @media screen and (max-width: 600px) {
@@ -167,7 +173,7 @@ color: crimson;
         display: none;
     }
 
-    .about-blurb span {
+    .para {
     font-size: 50px;
     padding: 20px;
     
