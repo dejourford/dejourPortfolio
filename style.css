@@ -113,6 +113,7 @@ color: crimson;
     background-color: black;
     color: white;
     word-spacing: 0.25rem;
+    height: 100vh;
 }
 
 /*========== HEADER MEDIA QUERY============= */
