@@ -119,9 +119,20 @@ color: crimson;
     padding: 0px 30px;
 }
 
+.portfolioSection {
+    height: 100vh;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 20px 0px;
+}
 
+footer {
+    
+    text-align: center;
+    padding: 20px 0px;
+}
 
-/*========== HEADER MEDIA QUERY============= */
+/*========== SMALL SCREEN MEDIA QUERY============= */
 @media screen and (max-width: 600px) {
     .leftLinks, .rightLinks {
         display: flex;
