@@ -332,17 +332,11 @@ svg:hover {
 
 
 
-/*========== SMALL SCREEN MEDIA QUERY============= */
-@media screen and (max-width: 300px){
-    .aboutHeader {
-        display: none;
-    }
-}
 
-@media screen and (max-height: 600px){
-    .aboutHeader {
-        display: none;
-    }
+@media screen and (max-width: 500px){
+   .aboutHeader {
+    display: none;
+   }
 }
 
 
