@@ -147,6 +147,10 @@ color: crimson;
     color: crimson;
 }
 
+
+
+
+
 .about-blurb {
     font-size: 2rem;
     background-color: black;
@@ -155,9 +159,18 @@ color: crimson;
     width: 100vw;
     max-width: fit-content;
     display: flex;
-    text-align: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 0px 30px;
+}
+
+.aboutHeader {
+    font-size: 3rem;
+    color: crimson;
+    text-decoration: 5px solid white overline;
+
+    
 }
 
 .projectSection {
