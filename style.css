@@ -250,6 +250,14 @@ form {
     gap: 10px;
 }
 
+input:focus {
+    border: 5px solid crimson;
+}
+
+textarea:focus {
+    border: 5px solid crimson;
+}
+
 .nameField, .emailField {
     width: 250px;
     padding: 10px;
