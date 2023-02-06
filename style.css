@@ -14,6 +14,23 @@ html, body {
     overflow-x: hidden;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: black;
+    color: white;
+    padding: 20px 0px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.spacer {
+    height: 20vh;
+}
+
+
 .navImg {
     height: 20px;
     border: 2px solid black;
@@ -47,6 +64,10 @@ html, body {
     cursor: pointer;
     color: black;
     font-weight: 800;
+}
+
+.links a:hover {
+    text-decoration: 4px solid crimson underline;
 }
 
 .links p {
@@ -140,7 +161,7 @@ color: crimson;
 }
 
 .projectSection {
-    height: 100vh;
+    
     font-size: 1.7rem;
     text-align: center;
 }
@@ -186,9 +207,25 @@ color: crimson;
     cursor: pointer;
 }
 
+#top {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background: black;
+    color: white;
+    font-weight: bold;
+    
+}
 
-.projectSectionText {
-    padding: 50px;
+#footerSpacer {
+    background: black;
+}
+
+#contact {
+    background: black;
 }
 
 /*========== SMALL SCREEN MEDIA QUERY============= */
