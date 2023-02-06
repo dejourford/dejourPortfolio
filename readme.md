@@ -36,3 +36,4 @@ The purpose of this project is to build a responsive portfolio that shows that I
     -created html and css pages for other pages
 02-05-23--finished about blurb section and added padding
     10:00--added typewriter effect to about section
+    21:35--initial commit of about.html
