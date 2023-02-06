@@ -38,3 +38,4 @@ The purpose of this project is to build a responsive portfolio that shows that I
     10:00--added typewriter effect to about section
     21:35--initial commit of about.html
 02-06-23--created contact section with icons and hover effects
+    12:05--added contact form functionality
