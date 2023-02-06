@@ -220,6 +220,10 @@ color: crimson;
     
 }
 
+#top:hover {
+    text-decoration: 5px solid crimson underline;
+}
+
 #footerSpacer {
     background: black;
 }
@@ -284,6 +288,11 @@ textarea:focus {
     font-weight: 800;
 }
 
+.submitBtn:hover {
+    background: white;
+    border: 2px solid crimson;
+}
+
 .socials {
     transform: translateY(30px);
 }
@@ -301,6 +310,13 @@ svg:hover {
     transform: translateY(20px);
     text-transform: uppercase;
 }
+
+.contactHeader {
+    color: crimson;
+    text-decoration: 5px solid white overline;
+}
+
+
 
 /*========== SMALL SCREEN MEDIA QUERY============= */
 @media screen and (max-width: 850px) {
