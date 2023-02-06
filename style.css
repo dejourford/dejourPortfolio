@@ -5,6 +5,10 @@
     
 }
 
+body {
+    font-family: 'Sen', sans-serif;
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -26,6 +30,10 @@ html, body {
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+
+.link:hover {
+    text-decoration: 4px underline solid crimson;
 }
 
 .links {
@@ -66,7 +74,7 @@ html, body {
     justify-content: center;
     padding: 30px 20px;
     gap: 20px;
-    background: whitesmoke;
+    /* background: white; */
 }
 
 .greetingText {
@@ -100,8 +108,7 @@ h3 {
 .socialLinks {
     display: flex;
     justify-content: space-around;
-    padding: 10px;
-    background: whitesmoke;
+    padding: 10px;;
 
 }
 
@@ -182,7 +189,6 @@ color: crimson;
 
 .projectSectionText {
     padding: 50px;
-    background: whitesmoke;
 }
 
 /*========== SMALL SCREEN MEDIA QUERY============= */
@@ -203,7 +209,7 @@ color: crimson;
         align-items: center;
     }
 
-    .navigation {
+    /* .navigation {
         position: fixed;
         bottom: 0;
         z-index: 2;
@@ -211,7 +217,7 @@ color: crimson;
         width: 100%;
         border-top: 3px solid black;
         opacity: 90%;
-    }
+    } */
 
     .navImg {
         height: 20px;
@@ -280,11 +286,6 @@ color: crimson;
     
     }
 
-    footer {
-        padding: 0px 0px;
-        height: 30vh;
-        margin-top: 150px;
-    }
   
 }
 
