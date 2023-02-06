@@ -39,3 +39,5 @@ The purpose of this project is to build a responsive portfolio that shows that I
     21:35--initial commit of about.html
 02-06-23--created contact section with icons and hover effects
     12:05--added contact form functionality
+    14:03--changed footer text
+02-06-23--final version of site done
