@@ -41,3 +41,4 @@ The purpose of this project is to build a responsive portfolio that shows that I
     12:05--added contact form functionality
     14:03--changed footer text
 02-06-23--final version of site done
+    14:25--fixed issue of landscape mode not displaying text properly
