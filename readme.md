@@ -18,7 +18,16 @@ The purpose of this project is to build a responsive portfolio that shows that I
 <br>
 -add top 2 projects to showcase on home page
 
-
+<h1>LESSONS LEARNED</h1>
+--mobile apps need hamburger menus
+<br>
+--designing mobile first is less of a headche
+<br>
+--grid has its use cases as does flexbox
+<br>
+--learned how to have my resume be viewed publicly
+<br>
+--100vh isn't always a good idea
 
 
 
