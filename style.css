@@ -194,6 +194,16 @@ color: crimson;
     padding: 20px;
 }
 
+#pokedex {
+    filter: blur(2px);
+}
+
+#pokedex::after {
+    content: "Nope";
+    display: flex;
+    z-index: 2;
+}
+
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
