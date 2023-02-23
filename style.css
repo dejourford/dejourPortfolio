@@ -123,7 +123,27 @@ h3 {
 }
 
 
+.resumeWrapper {
+   display: flex;
+   justify-content: center;
+    
+}
 
+.resumeBtn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 5px solid crimson;
+    border-radius: 5px;
+}
+
+.resumeBtn:hover {
+    background: crimson;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
 
 
 .socialLinks {
