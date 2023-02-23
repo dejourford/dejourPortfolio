@@ -194,7 +194,10 @@ color: crimson;
     padding: 20px;
 }
 
-#pokedex {
+/* TRYING TO WORK ON BLUR OVERLAY 
+WITH UNDER CONSTRUCTION TEXT */
+
+/* #pokedex {
     filter: blur(2px);
 }
 
@@ -202,7 +205,7 @@ color: crimson;
     content: "Nope";
     display: flex;
     z-index: 2;
-}
+} */
 
 .cards {
     display: grid;
