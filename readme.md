@@ -32,18 +32,25 @@ The purpose of this project is to build a responsive portfolio that shows that I
     -open and closing of menu
     <br>
 02-03-23- no hamburger menu--reg navigation instead
+    <br>
     -navigation is fixed to bottom of mobile screens
+    <br>
     -created html and css pages for other pages
     <br>
 02-05-23--finished about blurb section and added padding
+    <br>
     10:00--added typewriter effect to about section
+    <br>
     21:35--initial commit of about.html
     <br>
 02-06-23--created contact section with icons and hover effects
+    <br>
     12:05--added contact form functionality
+    <br>
     14:03--changed footer text
     <br>
 02-06-23--final version of site done
+    <br>
     14:25--fixed issue of landscape mode not displaying text properly
     <br>
 2-12-23--added ecommerce project to project section
