@@ -224,6 +224,10 @@ WITH UNDER CONSTRUCTION TEXT */
     border: 2px solid black;
 }
 
+.previewBtn:hover, .viewBtn:hover {
+    background: crimson;
+}
+
 .codeOptions {
     display: flex;
     justify-content: space-between;
@@ -343,7 +347,10 @@ svg:hover {
     text-decoration: 5px solid white overline;
 }
 
-
+/* had to add this because image too large */
+#image {
+    width: 320px;
+}
 
 
 @media screen and (max-width: 500px){
@@ -443,6 +450,8 @@ svg:hover {
         width: 240px;
     }
 
+   
+
     .cards {
         display: flex;
         flex-direction: column;
@@ -453,6 +462,10 @@ svg:hover {
     
     }
 
+    #image {
+        width: 350px;
+    }
+   
     .contactSection {
         display: flex;
         flex-direction: column;
