@@ -64,3 +64,4 @@ The purpose of this project is to build a responsive portfolio that shows that I
     <br>
 2-12-23--added ecommerce project to project section
 <br>
+2-26-23--added timer app project to project section
