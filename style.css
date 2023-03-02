@@ -373,6 +373,11 @@ svg:hover {
     width: 320px;
 }
 
+#basketball-gif {
+    height: 200px;
+    
+}
+
 
 @media screen and (max-width: 500px){
    .aboutHeader {
